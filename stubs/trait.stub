@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+
+/**
+ * Trait        DummyTrait
+ * @package     DummyNamespace
+ */
+trait DummyTrait
+{
+    //
+}

@@ -1,0 +1,186 @@
+$color: #212121;
+$yellow: #FCD016;
+$light-yellow: #FFF8DB;
+$silver: #EAE7E7;
+$light: #F4F3F3;
+$dark: #1D1D1B;
+
+html,
+body {
+    scrollbar-color: #252525 #fcd016;
+    scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    background: #fcd016;
+    width: 5px;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+    background: #252525;
+}
+
+.bg {
+    &-warning {
+        background: $yellow !important;
+    }
+}
+
+.border-warning {
+    border-color: $yellow !important;
+}
+
+.page {
+
+    position: relative;
+
+    &-viewport {
+        padding: 20px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 74px;
+        border-right: 20px solid $yellow !important;
+        // margin-bottom: 20px;
+        // color-adjust: exact;
+        
+        .header__logo {
+            width: 205px;
+            padding: 20px;
+            background: $yellow !important;
+            // color-adjust: exact;
+        }
+        .header__contacts {
+            height: 100%;
+            margin-right: 5px;
+            font-weight: 500;
+            font-size: 15px;
+
+            svg {
+                vertical-align: sub;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+
+        a {
+            color: $color !important;
+            text-decoration: none;
+            // color-adjust: exact;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .body {
+        padding: 20px;
+        font-weight: 500;
+
+        .params-card {
+            font-size: 18px;
+
+            &__footer {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 11px 20px 10px 25px;
+                border-radius: 3px;
+                background: $yellow !important;
+                background: $yellow !important;
+                // color-adjust: exact;
+                // margin-top: 35px;
+
+                .price {
+                    // font-weight: 900;
+                }
+            }
+        }
+
+        .room-card {
+            &__header {
+            }
+
+            &__table {
+                thead {
+                    background: $silver !important;
+                    // color-adjust: exact;
+                }
+
+                tbody {
+                    tr {
+                        border-top: 5px solid #fff !important;
+                        border-bottom: 5px solid #fff !important;
+                        // color-adjust: exact;
+
+                        &:nth-child(even) {
+                            background: $light !important;
+                        }
+                        &:nth-child(1), &:nth-child(2) {
+                            background: $light-yellow !important;
+                        }
+                    }
+                }
+
+                tfoot {
+                    background: $dark !important;
+                    color: #fff;
+                    // color-adjust: exact;
+                }
+            }
+        }
+    }
+
+    .footer {
+        background: $yellow !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        // color-adjust: exact;
+
+        .footer__logo {
+            // padding: 10px;
+        }
+
+        p, a {
+            margin: 0;
+            font-weight: 500;
+            font-size: 15px;
+            color: $color !important;
+            text-decoration: none;
+            // color-adjust: exact;
+            
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.artext-list {
+    border-left: 3px solid $yellow;
+    padding-left: 10px;
+}
+
+body {
+    @media print {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+    @media screen {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+}

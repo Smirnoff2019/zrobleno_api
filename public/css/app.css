@@ -1,0 +1,1593 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Light.eot?24a61e71297b6700a9e4f8293a0fd6cc);
+    src: local('GT Walsheim Pro Light'), local('GTWalsheimPro-Light'),
+        url(/fonts/GTWalsheimPro-Light.eot?24a61e71297b6700a9e4f8293a0fd6cc?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Light.woff2?1b1a3e48fac27b34d2a3dd6179a0edfe) format('woff2'),
+        url(/fonts/GTWalsheimPro-Light.woff?e5852faceaae513ce828b674aaf04b74) format('woff'),
+        url(/fonts/GTWalsheimPro-Light.ttf?3745e321a3e602f37ac028aa3ffd443d) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Regular.eot?31cf5ae033f8ba62fa1a8b67a3fd8746);
+    src: local('GT Walsheim Pro Regular'), local('GTWalsheimPro-Regular'),
+        url(/fonts/GTWalsheimPro-Regular.eot?31cf5ae033f8ba62fa1a8b67a3fd8746?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Regular.woff2?8203aee21006d82cb2aaa7d4c7556551) format('woff2'),
+        url(/fonts/GTWalsheimPro-Regular.woff?c02433d3b85dcd12db7411e6e9edf9e7) format('woff'),
+        url(/fonts/GTWalsheimPro-Regular.ttf?550c7b057b4c5e92c648fb468dc9fb08) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-ThinOblique.eot?e5a12bc6608af10c5fc54d257ab45066);
+    src: local('GT Walsheim Pro Thin Oblique'), local('GTWalsheimPro-ThinOblique'),
+        url(/fonts/GTWalsheimPro-ThinOblique.eot?e5a12bc6608af10c5fc54d257ab45066?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-ThinOblique.woff2?b91d104c2c3ee9df109d6e8ab455a009) format('woff2'),
+        url(/fonts/GTWalsheimPro-ThinOblique.woff?3b4e29215086530ae6850c90761af071) format('woff'),
+        url(/fonts/GTWalsheimPro-ThinOblique.ttf?107042032acacb7e4ba881ba5aa18379) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Thin.eot?e7d8c944faa45baa817e2c6569a04ca6);
+    src: local('GT Walsheim Pro Thin'), local('GTWalsheimPro-Thin'),
+        url(/fonts/GTWalsheimPro-Thin.eot?e7d8c944faa45baa817e2c6569a04ca6?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Thin.woff2?68a569e471f7dc5db5fba9df6683e2bd) format('woff2'),
+        url(/fonts/GTWalsheimPro-Thin.woff?bfa3f75f175440051b18b9f0d172eb20) format('woff'),
+        url(/fonts/GTWalsheimPro-Thin.ttf?da1833eec4181fc978a90896ca53d542) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-BoldOblique.eot?acd6d9dd2a451d933c9e9b61319b1791);
+    src: local('GT Walsheim Pro Bold Oblique'), local('GTWalsheimPro-BoldOblique'),
+        url(/fonts/GTWalsheimPro-BoldOblique.eot?acd6d9dd2a451d933c9e9b61319b1791?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-BoldOblique.woff2?138ec9825943fe8aac28ae18b2a65bcf) format('woff2'),
+        url(/fonts/GTWalsheimPro-BoldOblique.woff?98f97fe7d3599181f72159c6ec3ae136) format('woff'),
+        url(/fonts/GTWalsheimPro-BoldOblique.ttf?9b94aa74d4dceae14e754547c9299e72) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Ultra';
+    src: url(/fonts/GTWalsheimPro-UltraBold.eot?391d74231b267dfe6c917eebe2d7c143);
+    src: local('GT Walsheim Pro Ultra Bold'), local('GTWalsheimPro-UltraBold'),
+        url(/fonts/GTWalsheimPro-UltraBold.eot?391d74231b267dfe6c917eebe2d7c143?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-UltraBold.woff2?b2381a0cf8b8ed7ab6d33c99b229a042) format('woff2'),
+        url(/fonts/GTWalsheimPro-UltraBold.woff?219709e4860c498dad44d88e4da38d18) format('woff'),
+        url(/fonts/GTWalsheimPro-UltraBold.ttf?3583eeee03e9dcad98ff675b7e4dbaf2) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Ultra';
+    src: url(/fonts/GTWalsheimPro-UltraBoldOblique.eot?0b8163d2d8931d171002772e9600c731);
+    src: local('GT Walsheim Pro Ultra Bold Oblique'), local('GTWalsheimPro-UltraBoldOblique'),
+        url(/fonts/GTWalsheimPro-UltraBoldOblique.eot?0b8163d2d8931d171002772e9600c731?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-UltraBoldOblique.woff2?daf98936cfe7f087b87d7947308c13d0) format('woff2'),
+        url(/fonts/GTWalsheimPro-UltraBoldOblique.woff?50349dde0a0af54c03768b034f7b3204) format('woff'),
+        url(/fonts/GTWalsheimPro-UltraBoldOblique.ttf?1f68a086f58615cb932f2f7057aa2209) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-MediumOblique.eot?0ed62bd90198285bea6fd2b343312fc0);
+    src: local('GT Walsheim Pro Medium Oblique'), local('GTWalsheimPro-MediumOblique'),
+        url(/fonts/GTWalsheimPro-MediumOblique.eot?0ed62bd90198285bea6fd2b343312fc0?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-MediumOblique.woff2?a74077fa2495d475bbce8935c1da777c) format('woff2'),
+        url(/fonts/GTWalsheimPro-MediumOblique.woff?103fcaa877b23f717f7228ed6c8bc34c) format('woff'),
+        url(/fonts/GTWalsheimPro-MediumOblique.ttf?908a498753a7bc9f21d64514fe4482ad) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Bold.eot?bdf96f74073f3028e0a26773cb983122);
+    src: local('GT Walsheim Pro Bold'), local('GTWalsheimPro-Bold'),
+        url(/fonts/GTWalsheimPro-Bold.eot?bdf96f74073f3028e0a26773cb983122?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Bold.woff2?1826054539d6e8181ac3f4bfb68401f8) format('woff2'),
+        url(/fonts/GTWalsheimPro-Bold.woff?84dea2a4a9c9acf5e2ba8d015b3481b6) format('woff'),
+        url(/fonts/GTWalsheimPro-Bold.ttf?8ee87a5a1f4219b9a1fb984f554662e3) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Medium.eot?7ed6e7238cf778603a99e8c2f792895d);
+    src: local('GT Walsheim Pro Medium'), local('GTWalsheimPro-Medium'),
+        url(/fonts/GTWalsheimPro-Medium.eot?7ed6e7238cf778603a99e8c2f792895d?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Medium.woff2?6c3cfafbc74a4e34143fb8ab0f2d204d) format('woff2'),
+        url(/fonts/GTWalsheimPro-Medium.woff?86882f7d855e383d13d94028810924e0) format('woff'),
+        url(/fonts/GTWalsheimPro-Medium.ttf?f2f36c73edf543e7d7c6dd0a030e3af8) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-RegularOblique.eot?458f05b6bac0fd752f19a65af9b34701);
+    src: local('GT Walsheim Pro Regular Oblique'), local('GTWalsheimPro-RegularOblique'),
+        url(/fonts/GTWalsheimPro-RegularOblique.eot?458f05b6bac0fd752f19a65af9b34701?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-RegularOblique.woff2?6c83c583818c079d0d90e2a6ce46f644) format('woff2'),
+        url(/fonts/GTWalsheimPro-RegularOblique.woff?3f0def3b2c876be97002f452ceb5ad23) format('woff'),
+        url(/fonts/GTWalsheimPro-RegularOblique.ttf?7c064a9acc47685cd976c41dfcafac72) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-LightOblique.eot?1856162fcabc2063ce0f91af02f17086);
+    src: local('GT Walsheim Pro Light Oblique'), local('GTWalsheimPro-LightOblique'),
+        url(/fonts/GTWalsheimPro-LightOblique.eot?1856162fcabc2063ce0f91af02f17086?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-LightOblique.woff2?2537be4690e9629289f59b5b77c39aad) format('woff2'),
+        url(/fonts/GTWalsheimPro-LightOblique.woff?4a5d1e11b47307d25962f6e854811607) format('woff'),
+        url(/fonts/GTWalsheimPro-LightOblique.ttf?d9e46c28b64897c279f8e993f3620319) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Ultra';
+    src: url(/fonts/GTWalsheimPro-UltraLight.eot?ed290490011b5cf1002ff4b6a8817202);
+    src: local('GT Walsheim Pro Ultra Light'), local('GTWalsheimPro-UltraLight'),
+        url(/fonts/GTWalsheimPro-UltraLight.eot?ed290490011b5cf1002ff4b6a8817202?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-UltraLight.woff2?e4911739bf02837a296e9703be572bbe) format('woff2'),
+        url(/fonts/GTWalsheimPro-UltraLight.woff?e4198dde25f9a2b389a30e83b05a3a17) format('woff'),
+        url(/fonts/GTWalsheimPro-UltraLight.ttf?3b3a3e23311b7df4325ac69dae90dc8d) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Ultra';
+    src: url(/fonts/GTWalsheimPro-UltraLightOblique.eot?be3e8ecd91abfddbb22d50e1804a36ad);
+    src: local('GT Walsheim Pro Ultra Light Oblique'), local('GTWalsheimPro-UltraLightOblique'),
+        url(/fonts/GTWalsheimPro-UltraLightOblique.eot?be3e8ecd91abfddbb22d50e1804a36ad?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-UltraLightOblique.woff2?e73dbf89c7d6d4846c65a183552b71b8) format('woff2'),
+        url(/fonts/GTWalsheimPro-UltraLightOblique.woff?a70da09c7a0e3cc26356ec2e2c6083a6) format('woff'),
+        url(/fonts/GTWalsheimPro-UltraLightOblique.ttf?3011670dc21ed88adc22faa51e36c866) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-BlackOblique.eot?1cc1a50a8f884d47e2253c8b6bf7ce78);
+    src: local('GT Walsheim Pro Black Oblique'), local('GTWalsheimPro-BlackOblique'),
+        url(/fonts/GTWalsheimPro-BlackOblique.eot?1cc1a50a8f884d47e2253c8b6bf7ce78?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-BlackOblique.woff2?ff608dba1a06a0003c0ecc022337feb1) format('woff2'),
+        url(/fonts/GTWalsheimPro-BlackOblique.woff?89ccff4649587ad5f3cf87c23b33da8e) format('woff'),
+        url(/fonts/GTWalsheimPro-BlackOblique.ttf?b8eea1cab9e64a4811779f4c9ddaf5ba) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url(/fonts/GTWalsheimPro-Black.eot?5ea3a2f3601185ed499741e749d2dfea);
+    src: local('GT Walsheim Pro Black'), local('GTWalsheimPro-Black'),
+        url(/fonts/GTWalsheimPro-Black.eot?5ea3a2f3601185ed499741e749d2dfea?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-Black.woff2?23600ade7b16059d8c9a44ab07fec752) format('woff2'),
+        url(/fonts/GTWalsheimPro-Black.woff?f9bc454a2f32f7c97aab2ced83fb4b9a) format('woff'),
+        url(/fonts/GTWalsheimPro-Black.ttf?91b97c525173993747ec7da3c2c57d0b) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Cond Ultra';
+    src: url(/fonts/GTWalsheimPro-CondensedUltraBold.eot?646500d535998671565fc052b755b562);
+    src: local('GT Walsheim Pro Condensed Ultra Bold'), local('GTWalsheimPro-CondensedUltraBold'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBold.eot?646500d535998671565fc052b755b562?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBold.woff2?0cd4354aa9bcb708a70ba6730a2e4786) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBold.woff?ec8a9c4ed77520b01744a2eca7941419) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBold.ttf?def5543e4fe620b0ad1510363a8740a4) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedLight.eot?58fe022acd60cb8320d62c4a1dfaaa3c);
+    src: local('GT Walsheim Pro Condensed Light'), local('GTWalsheimPro-CondensedLight'),
+        url(/fonts/GTWalsheimPro-CondensedLight.eot?58fe022acd60cb8320d62c4a1dfaaa3c?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedLight.woff2?f2d1e5c561b33ab13f1632d7a5624888) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedLight.woff?e2fb8fad256ac280b36b5eea53db4f9f) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedLight.ttf?b5b38ad6bdd19e98b864561f473a2077) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedBoldOblique.eot?ead49ff4630336dc0f04ec0fdf88efa9);
+    src: local('GT Walsheim Pro Condensed Bold Oblique'), local('GTWalsheimPro-CondensedBoldOblique'),
+        url(/fonts/GTWalsheimPro-CondensedBoldOblique.eot?ead49ff4630336dc0f04ec0fdf88efa9?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedBoldOblique.woff2?d69dc889a37f69125367e05143f9f2dc) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedBoldOblique.woff?b1d97ab8aa929c00eeda6f4b47c2ad84) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedBoldOblique.ttf?65d69a7e5f8053e7263aae5c2dcec480) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedLightOblique.eot?bb33945495e2a4f0203c6ce5351a17d6);
+    src: local('GT Walsheim Pro Condensed Light Oblique'), local('GTWalsheimPro-CondensedLightOblique'),
+        url(/fonts/GTWalsheimPro-CondensedLightOblique.eot?bb33945495e2a4f0203c6ce5351a17d6?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedLightOblique.woff2?4253542650baf6b7b3b68b375812e0e0) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedLightOblique.woff?e5848cc8d0e6d8a16e611346cd121f07) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedLightOblique.ttf?2ab89418ae1f23c1990fedd461ec89c6) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedThin.eot?20f53e122d933d5ef470e5a4fd951528);
+    src: local('GT Walsheim Pro Condensed Thin'), local('GTWalsheimPro-CondensedThin'),
+        url(/fonts/GTWalsheimPro-CondensedThin.eot?20f53e122d933d5ef470e5a4fd951528?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedThin.woff2?1e118b59f6ec48ba69702e20e10450d3) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedThin.woff?e08b46a87f2a7bca51b4c08820581cfc) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedThin.ttf?429ad2a651e8d363376262f5ac473151) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GTWalsheimPro-CondensedULightIt';
+    src: url(/fonts/GTWalsheimPro-CondensedUltraLightOblique.eot?79311ff701295f2f9440d1cd94df96be);
+    src: local('GT Walsheim Pro Condensed Ultra Light Oblique'), local('GTWalsheimPro-CondensedUltraLightOblique'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLightOblique.eot?79311ff701295f2f9440d1cd94df96be?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLightOblique.woff2?43f722540d1cf6ab01610ab1dfe8f254) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLightOblique.woff?90ddea6b683523722bf8c8abbea53846) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLightOblique.ttf?c930a0fe3375e5135276abeaf340b021) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Cond';
+    src: url(/fonts/GTWalsheimPro-CondensedMedium.eot?4a609594f34094aef8f854ab4cae07d2);
+    src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'),
+        url(/fonts/GTWalsheimPro-CondensedMedium.eot?4a609594f34094aef8f854ab4cae07d2?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedMedium.woff2?7436c87220b81d16c02d0791ce8c190d) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedMedium.woff?5f3870f96544dfa2cfc0795693ef0d1d) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedMedium.ttf?e5aee3b06fab12edbdc91e227a8606fd) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedBlackOblique.eot?ee02f52c045845a8a044f24d3f2cbd97);
+    src: local('GT Walsheim Pro Condensed Black Oblique'), local('GTWalsheimPro-CondensedBlackOblique'),
+        url(/fonts/GTWalsheimPro-CondensedBlackOblique.eot?ee02f52c045845a8a044f24d3f2cbd97?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedBlackOblique.woff2?b94373bdce8cacfe9c9daa50e72beb54) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedBlackOblique.woff?ae1b372412458ed0ee116a767ee9212d) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedBlackOblique.ttf?6b2e9e0024a8b395467fbcedaa3bd48f) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedRegular.eot?630732dde3b20c264feecb37e998c105);
+    src: local('GT Walsheim Pro Condensed Regular'), local('GTWalsheimPro-CondensedRegular'),
+        url(/fonts/GTWalsheimPro-CondensedRegular.eot?630732dde3b20c264feecb37e998c105?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedRegular.woff2?7426cff9d6d83114563e2e9b2f5e3ed6) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedRegular.woff?8aa4ca0ca535ff75c3f599a857a4c910) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedRegular.ttf?a93484144ae4c6338b69b582c1f7e0b1) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedThinOblique.eot?4131dd1a8f8df2339ff624029da20c5c);
+    src: local('GT Walsheim Pro Condensed Thin Oblique'), local('GTWalsheimPro-CondensedThinOblique'),
+        url(/fonts/GTWalsheimPro-CondensedThinOblique.eot?4131dd1a8f8df2339ff624029da20c5c?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedThinOblique.woff2?b9b0a09b0764fb108be689faf357332e) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedThinOblique.woff?57ca2e6bbc7f110bf85b7e3e0e16f660) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedThinOblique.ttf?b42477ff5a1bcb91486bfc842c1b6f11) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedBold.eot?5a12c52702af8299af3a100506afba93);
+    src: local('GT Walsheim Pro Condensed Bold'), local('GTWalsheimPro-CondensedBold'),
+        url(/fonts/GTWalsheimPro-CondensedBold.eot?5a12c52702af8299af3a100506afba93?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedBold.woff2?44862712fc05f15bfcc8eaad0fb6f1c0) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedBold.woff?5708a1e0f7300117ec68b01fecc279ec) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedBold.ttf?a2898272ba62c541c0f4ac36b6527654) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedRegularOblique.eot?afbf7bbb11ac27ce92bc42f816089ece);
+    src: local('GT Walsheim Pro Condensed Regular Oblique'), local('GTWalsheimPro-CondensedRegularOblique'),
+        url(/fonts/GTWalsheimPro-CondensedRegularOblique.eot?afbf7bbb11ac27ce92bc42f816089ece?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedRegularOblique.woff2?984b8bc8b450c49ed8fa14a7e2aa1de2) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedRegularOblique.woff?c2a54d606c3de0523347d0d852a5d79b) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedRegularOblique.ttf?09275981bd291081eb24c6f87919496a) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GTWalsheimPro-CondensedULight';
+    src: url(/fonts/GTWalsheimPro-CondensedUltraLight.eot?2ec475053ac35c773c4097e1cd41b4e1);
+    src: local('GT Walsheim Pro Condensed Ultra Light'), local('GTWalsheimPro-CondensedUltraLight'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLight.eot?2ec475053ac35c773c4097e1cd41b4e1?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLight.woff2?57632bd1860ab7e64f983c572ff359b6) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLight.woff?1b292aee7e78e03655dfd6df55b4a83f) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedUltraLight.ttf?a0bf87c3946e70c373b302bea60062e6) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Cond Ultra';
+    src: url(/fonts/GTWalsheimPro-CondensedUltraBoldOblique.eot?f55836d0ecc41435d5fe3615c0e058b9);
+    src: local('GT Walsheim Pro Condensed Ultra Bold Oblique'), local('GTWalsheimPro-CondensedUltraBoldOblique'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBoldOblique.eot?f55836d0ecc41435d5fe3615c0e058b9?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBoldOblique.woff2?747ec194d1eaa77d8f2ce38b1762f09d) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBoldOblique.woff?97e9075cc032bbbef478d9c4be2730c2) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedUltraBoldOblique.ttf?50b01c298d6d7c060cb3ba0653efd8c9) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Cond';
+    src: url(/fonts/GTWalsheimPro-CondensedMediumOblique.eot?f8ad98251e8d898338ad60e4f111c005);
+    src: local('GT Walsheim Pro Condensed Medium Oblique'), local('GTWalsheimPro-CondensedMediumOblique'),
+        url(/fonts/GTWalsheimPro-CondensedMediumOblique.eot?f8ad98251e8d898338ad60e4f111c005?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedMediumOblique.woff2?0362c7ab513aa31471037d7383f6a4ea) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedMediumOblique.woff?df65908bbddac55415edaa1b266b49de) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedMediumOblique.ttf?4118f4ce0c08b18b86b0c0c251b8c026) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'GT Walsheim Pro Condensed';
+    src: url(/fonts/GTWalsheimPro-CondensedBlack.eot?837da174f866e9f8dd1670a7ecae55c2);
+    src: local('GT Walsheim Pro Condensed Black'), local('GTWalsheimPro-CondensedBlack'),
+        url(/fonts/GTWalsheimPro-CondensedBlack.eot?837da174f866e9f8dd1670a7ecae55c2?#iefix) format('embedded-opentype'),
+        url(/fonts/GTWalsheimPro-CondensedBlack.woff2?7a1fb0f63b241b41482b589471017be6) format('woff2'),
+        url(/fonts/GTWalsheimPro-CondensedBlack.woff?ed00dfc7671b0a23e4a2d9b0be561cc1) format('woff'),
+        url(/fonts/GTWalsheimPro-CondensedBlack.ttf?4739276a8c2fdb5631e8941f75ac0f68) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@charset "UTF-8";
+
+html,
+body {
+  font-size: 14px;
+}
+
+.text-muted-vp {
+  opacity: 0.5;
+}
+
+.text-black {
+  color: #000;
+}
+
+.relation-link {
+  outline: none;
+}
+
+.relation-link svg {
+  transition: 0.2s all;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.relation-link:hover svg {
+  opacity: 0.5;
+  visibility: visible;
+}
+
+.fs-1 {
+  font-size: 0.75rem;
+}
+
+.fs-2 {
+  font-size: 0.875rem;
+}
+
+.fs-3 {
+  font-size: 1rem;
+}
+
+.fs-4 {
+  font-size: 1.125rem;
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+}
+
+.fs-6 {
+  font-size: 1.5rem;
+}
+
+.fs-7 {
+  font-size: 1.75rem;
+}
+
+.fs-8 {
+  font-size: 1.875rem;
+}
+
+.fs-9 {
+  font-size: 2rem;
+}
+
+.font-weight-900,
+.font-w-900 {
+  font-weight: 900;
+}
+
+.font-weight-800,
+.font-w-800 {
+  font-weight: 800;
+}
+
+.font-weight-700,
+.font-w-700 {
+  font-weight: 700;
+}
+
+.font-weight-600,
+.font-w-600 {
+  font-weight: 600;
+}
+
+.font-weight-500,
+.font-w-500 {
+  font-weight: 500;
+}
+
+.font-weight-400,
+.font-w-400 {
+  font-weight: 400;
+}
+
+.font-weight-300,
+.font-w-300 {
+  font-weight: 300;
+}
+
+.font-weight-200,
+.font-w-200 {
+  font-weight: 200;
+}
+
+:root {
+  --bg-silver: #F0F0F0;
+}
+
+.bg-silver {
+  background-color: var(--bg-silver) !important;
+}
+
+.bg-hover {
+  transition: 0.15s background-color;
+}
+
+.bg-hover-primary:hover {
+  background-color: var(--primary) !important;
+}
+
+.bg-hover-secondary:hover {
+  background-color: var(--secondary) !important;
+}
+
+.bg-hover-success:hover {
+  background-color: var(--success) !important;
+}
+
+.bg-hover-info:hover {
+  background-color: var(--info) !important;
+}
+
+.bg-hover-warning:hover {
+  background-color: var(--warning) !important;
+}
+
+.bg-hover-danger:hover {
+  background-color: var(--danger) !important;
+}
+
+.bg-hover-light:hover {
+  background-color: var(--light) !important;
+}
+
+.bg-hover-dark:hover {
+  background-color: var(--dark) !important;
+}
+
+.bg-hover-white:hover {
+  background-color: var(--white) !important;
+}
+
+.bg-hover-silver:hover {
+  background-color: var(--bg-silver) !important;
+}
+
+:root {
+  --border-silver: #c4c8cc;
+}
+
+.border-silver {
+  border-color: var(--border-silver) !important;
+}
+
+.border-hover {
+  transition: 0.15s border;
+}
+
+.border-hover-primary:hover {
+  border-color: var(--primary) !important;
+}
+
+.border-hover-secondary:hover {
+  border-color: var(--secondary) !important;
+}
+
+.border-hover-silver:hover {
+  border-color: var(--border-silver) !important;
+}
+
+.border-hover-success:hover {
+  border-color: var(--success) !important;
+}
+
+.border-hover-info:hover {
+  border-color: var(--info) !important;
+}
+
+.border-hover-warning:hover {
+  border-color: var(--warning) !important;
+}
+
+.border-hover-danger:hover {
+  border-color: var(--danger) !important;
+}
+
+.border-hover-light:hover {
+  border-color: var(--light) !important;
+}
+
+.border-hover-dark:hover {
+  border-color: var(--dark) !important;
+}
+
+.border-hover-white:hover {
+  border-color: var(--white) !important;
+}
+
+.border-w-1 {
+  border-width: 1px !important;
+}
+
+.border-w-2 {
+  border-width: 2px !important;
+}
+
+.border-w-3 {
+  border-width: 3px !important;
+}
+
+.border-w-4 {
+  border-width: 4px !important;
+}
+
+.border-w-5 {
+  border-width: 5px !important;
+}
+
+.border-wt-1 {
+  border-top-width: 1px !important;
+}
+
+.border-wt-2 {
+  border-top-width: 2px !important;
+}
+
+.border-wt-3 {
+  border-top-width: 3px !important;
+}
+
+.border-wt-4 {
+  border-top-width: 4px !important;
+}
+
+.border-wt-5 {
+  border-top-width: 5px !important;
+}
+
+.border-wr-1 {
+  border-right-width: 1px !important;
+}
+
+.border-wr-2 {
+  border-right-width: 2px !important;
+}
+
+.border-wr-3 {
+  border-right-width: 3px !important;
+}
+
+.border-wr-4 {
+  border-right-width: 4px !important;
+}
+
+.border-wr-5 {
+  border-right-width: 5px !important;
+}
+
+.border-wb-1 {
+  border-bottom-width: 1px !important;
+}
+
+.border-wb-2 {
+  border-bottom-width: 2px !important;
+}
+
+.border-wb-3 {
+  border-bottom-width: 3px !important;
+}
+
+.border-wb-4 {
+  border-bottom-width: 4px !important;
+}
+
+.border-wb-5 {
+  border-bottom-width: 5px !important;
+}
+
+.border-wl-1 {
+  border-left-width: 1px !important;
+}
+
+.border-wl-2 {
+  border-left-width: 2px !important;
+}
+
+.border-wl-3 {
+  border-left-width: 3px !important;
+}
+
+.border-wl-4 {
+  border-left-width: 4px !important;
+}
+
+.border-wl-5 {
+  border-left-width: 5px !important;
+}
+
+:root {
+  --image_preview_bg_image: "";
+}
+
+.loader {
+  --loader-size: 2rem;
+  --loader-weight: 3px;
+  --loader-color: #212121;
+  --loader-tiny-color: #21212120;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  border-radius: 50%;
+  border-top: var(--loader-weight) solid var(--loader-color);
+  border-right: var(--loader-weight) solid var(--loader-tiny-color);
+  border-bottom: var(--loader-weight) solid var(--loader-tiny-color);
+  border-left: var(--loader-weight) solid var(--loader-tiny-color);
+  -webkit-animation-name: loader;
+          animation-name: loader;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition: opacity 0.15s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader.show,
+.loader.active,
+.loader.loading {
+  opacity: 1;
+  visibility: visible;
+}
+
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(40deg);
+  }
+
+  to {
+    transform: rotate(400deg);
+  }
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(40deg);
+  }
+
+  to {
+    transform: rotate(400deg);
+  }
+}
+
+.images-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 12rem);
+  gap: 0.9rem;
+}
+
+.images-gallery .images-gallery-item {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+}
+
+.images-gallery .images-gallery-item img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.images-gallery .images-gallery-item label::before,
+.images-gallery .images-gallery-item label::after {
+  top: 0.5rem;
+  left: unset;
+  right: 0.5rem;
+}
+
+.images-gallery .images-gallery-item .custom-checkbox .custom-control-input ~ .custom-control-label:before {
+  border-radius: 1px;
+}
+
+.images-gallery .images-gallery-item .custom-checkbox .custom-control-input:checked ~ .custom-control-label:before {
+  --hover-outline-color: #0073aa;
+  --hover-bord-color: #ffffff;
+  border-radius: 1px;
+  box-shadow: 0px 0px 0px 2px var(--hover-bord-color), 0px 0px 0px 4px var(--hover-outline-color);
+}
+
+.images-gallery .images-gallery-item .custom-checkbox .custom-control-input:checked ~ .custom-control-label:after {
+  background-position: center;
+  background-size: 60% 60%;
+  background-repeat: no-repeat;
+}
+
+.images-gallery .images-gallery-item .options {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s all;
+}
+
+.images-gallery .images-gallery-item .options a {
+  width: 2rem;
+  height: 2rem;
+}
+
+.images-gallery .images-gallery-item:hover .options {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover {
+  transition: 0.3s box-shadow;
+  --hover-outline-color: #0073aa;
+  --hover-bord-color: #ffffff;
+}
+
+.hover-thumbnail {
+  --hover-outline-color: rgba(0, 0, 0, 0.15);
+  --hover-bord-color: #ffffff;
+  transition: 0.3s box-shadow;
+  box-shadow: 0px 0px 0px 3px var(--hover-bord-color), 0px 0px 0px 5px var(--hover-outline-color);
+}
+
+.hover-thumbnail:hover {
+  --hover-outline-color: #0073aa;
+  box-shadow: 0px 0px 0px 3px var(--hover-bord-color), 0px 0px 0px 5px var(--hover-outline-color);
+}
+
+input:checked ~ .hover-thumbnail {
+  --hover-outline-color: #0073aa;
+  box-shadow: 0px 0px 0px 2px var(--hover-bord-color), 0px 0px 0px 5px var(--hover-outline-color);
+}
+
+.hover:hover {
+  box-shadow: 0px 0px 0px 3px var(--hover-outline-color);
+}
+
+.hover-outline:hover {
+  --hover-bord-color: #ffffff;
+  box-shadow: 0px 0px 0px 2px var(--hover-bord-color), 0px 0px 0px 5px var(--hover-outline-color);
+}
+
+.hover-primary:hover {
+  --hover-bord-color: #ffffff;
+  --hover-outline-color: #0073aa;
+}
+
+.hover-danger:hover {
+  --hover-bord-color: #ffffff;
+  --hover-outline-color: red;
+}
+
+#upload-image-form {
+  min-height: 20rem;
+}
+
+#upload-image-form input {
+  height: 100%;
+  width: 100%;
+  min-height: 20rem;
+}
+
+#upload-image-form label {
+  width: 100%;
+  height: 100%;
+  min-height: 20rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.page-image-thumbnail {
+  cursor: pointer;
+  position: relative;
+}
+
+.page-image-thumbnail::before {
+  content: "\F424";
+  font-family: "Font Awesome 5 Pro";
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.5rem;
+  padding: 0.055rem;
+  color: #fff;
+  color: #000;
+  background-color: #ffffffaa;
+  border-radius: 5%;
+  text-align: center;
+  transition: 0.3s all;
+  box-shadow: 0px 0px 0px 1px #ffffff50, 0px 0px 0px 3px #212121;
+  box-shadow: 0px 0px 0px 1px #212121, 0px 0px 0px 3px #ffffffaa;
+}
+
+.page-image-thumbnail:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff30;
+  transition: 0.3s all;
+  opacity: 1;
+  visibility: visible;
+}
+
+.page-image-thumbnail:hover:after,
+.page-image-thumbnail:hover::before {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.page-image-thumbnail:hover img {
+  max-height: 50rem;
+}
+
+.page-image-thumbnail img {
+  max-height: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: 0.5s all;
+}
+
+.btn-square.btn-sm {
+  width: 2.1rem;
+  max-width: 2.1rem;
+  height: 2rem;
+  max-height: 2rem;
+}
+
+.meta-field-card {
+  margin-top: -1px;
+}
+
+.meta-field-card-btn {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.meta-field-card-header.active {
+  background: #2a9bd9;
+  border: #2696d3 solid 1px;
+  text-shadow: #268fbb 0 1px 0;
+  color: #fff;
+  position: relative;
+  margin: -1px -1px -1px -1px;
+}
+
+.meta-field-card-header.active .meta-field-card-header--action {
+  text-shadow: #268fbb 0 1px 0;
+}
+
+.meta-field-card-header .meta-field-card-header--iteration {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+
+.ui-state-highlight {
+  height: 4rem;
+  border: 1px solid #dad55e;
+  background: #fffa90;
+  color: #777620;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.form-group > label {
+  font-weight: 500;
+}
+
+.iteration-counter {
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding-top: 1px;
+}
+
+.reset-counter {
+  counter-reset: section;
+}
+
+.reset-counter .iteration-counter::before {
+  counter-increment: section;
+  content: "" counter(section) "";
+  text-decoration: none;
+}
+
+.icon-btn {
+  --size: 2rem;
+  width: var(--size);
+  height: var(--size);
+  min-width: var(--size);
+  min-height: var(--size);
+}
+
+.icon-btn-sm {
+  --size: 1.6rem;
+  width: var(--size);
+  height: var(--size);
+  min-width: var(--size);
+  min-height: var(--size);
+}
+
+.icon-btn-lg {
+  --size: 2.6rem;
+  width: var(--size);
+  height: var(--size);
+  min-width: var(--size);
+  min-height: var(--size);
+}
+
+.meta-field--images-gallery .ui-sortable-placeholder {
+  border: none;
+  margin-top: -1px;
+}
+
+.meta-field--images-gallery .ui-sortable-placeholder td {
+  border: none;
+}
+
+.meta-field--images-gallery .ui-sortable-helper {
+  width: 100%;
+  display: table-row !important;
+}
+
+.meta-field--images-gallery .ui-sortable-helper .images-gallery-item--left-bar,
+.meta-field--images-gallery .ui-sortable-helper .images-gallery-item--right-bar {
+  min-width: 35px;
+}
+
+.meta-field--images-gallery .ui-sortable-helper .images-gallery-item--body {
+  width: 100%;
+}
+
+.meta-field--images-gallery thead td {
+  border-bottom-width: 1px;
+}
+
+.images-gallery-item:hover .delete-image-from-gallery {
+  opacity: 1;
+}
+
+.images-gallery-item .delete-image-from-gallery {
+  opacity: 0.3;
+}
+
+.delete-image-from-gallery {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  border: 1px solid #6c757dab;
+  color: #6c757dab;
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s all;
+}
+
+.delete-image-from-gallery::after {
+  content: "-";
+  line-height: 0;
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-top: -2px;
+}
+
+.delete-image-from-gallery:hover {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: var(--white);
+}
+
+body .custom-control-label::before,
+body .custom-file-label,
+body .custom-select {
+  transition: none;
+}
+
+.form-toggle-custom label {
+  cursor: pointer;
+}
+
+.form-toggle-custom label:after,
+.form-toggle-custom label:before {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 25px;
+  color: var(--secondary);
+  transition: 0.2s all;
+  margin-right: 1rem;
+}
+
+.form-toggle-custom label:before {
+  content: "\F204";
+}
+
+.form-toggle-custom input[type=checkbox] {
+  display: none;
+}
+
+.form-toggle-custom input[type=checkbox]:checked ~ label:before {
+  content: "\F205";
+  color: var(--success);
+}
+
+.filters-bar input:focus,
+.filters-bar select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+body.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+  overflow-y: visible !important;
+  overflow-x: visible;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item {
+  position: relative;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link .menu-nav-link--icon {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link.active,
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link.active:hover {
+  background-color: #03a9f475;
+  color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link.active .menu-nav-link--icon,
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .menu-nav-link.active:hover .menu-nav-link--icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item.active .menu-nav-link,
+.sb-sidenav-dark .sb-sidenav-menu .menu-item.active:hover .menu-nav-link {
+  background-color: #03a9f475;
+  color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item.active .menu-nav-link .menu-nav-link--icon,
+.sb-sidenav-dark .sb-sidenav-menu .menu-item.active:hover .menu-nav-link .menu-nav-link--icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item:hover .menu-nav-link {
+  background-color: #191e23;
+  color: #00b9eb;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item:hover .menu-nav-link .menu-nav-link--icon {
+  color: #00b9eb;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item:hover .menu-nav-link.active {
+  background-color: #03a9f475;
+  color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item:hover .menu-nav-link.active .menu-nav-link--icon {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu {
+  position: absolute;
+  top: -1px;
+  left: 100%;
+  z-index: 9;
+  min-width: 120px;
+  max-width: 230px;
+  background-color: #32373c;
+  color: rgba(255, 255, 255, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px 0 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -9px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-right: 12px solid #32373c;
+  border-bottom: 10px solid transparent;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu .submenu-nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 7px 1rem;
+  font-size: 0.9em;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu .submenu-nav-link.active {
+  background-color: inherit;
+  color: #fff;
+  font-weight: 500;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu .submenu-nav-link.active:hover {
+  color: #fff;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item .submenu .submenu-nav-link:hover {
+  color: #00b9eb;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item.active .submenu {
+  visibility: visible;
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #32373c;
+  padding: 7px 0 7px;
+  box-shadow: none;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .menu-item:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .sb-sidenav-menu-heading {
+  letter-spacing: 0.5px;
+}
+
+.sb-sidenav-dark .sb-sidenav-menu .collapsing,
+.sb-sidenav-dark .sb-sidenav-menu .collapse {
+  background-color: #181c1f;
+}
+
+.notifications-menu {
+  width: 40rem;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.notifications-menu-icon {
+  position: relative;
+}
+
+.notifications-menu-icon:before {
+  content: "";
+  border-radius: 100%;
+  width: 0px;
+  height: 0px;
+  padding: 4px;
+  background-color: red;
+  display: block;
+  top: 7px;
+  left: 14px;
+  position: absolute;
+  border: 1px solid #343a40;
+}
+
+.status-badge {
+  padding: 0.2rem 1rem;
+  border-radius: 30rem;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap !important;
+}
+
+.filter-search-by input.form-control,
+.filter-search input.form-control {
+  width: 15rem;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.preview-images {
+  --size: 15rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview-images img {
+  max-width: var(--size);
+}
+
+.preview-images.empty:before,
+input[value=""] ~ .preview-images:before {
+  content: "\412\44B\431\435\440\438\442\435   \438\437\43E\431\440\430\436\435\43D\438\435";
+  width: var(--size);
+  height: calc(var(--size) / 16 * 9);
+  margin: 0.5rem 0.5rem;
+  background-color: #fff;
+  color: #9b9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px #00000033, 0px 0px 0px 3px #fff, 0px 0px 0px 4px #00000033, 0 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.preview-images.empty img,
+input[value=""] ~ .preview-images img {
+  display: none;
+}
+
+.modal-body.modal-gallery-body {
+  max-height: 80vh;
+  min-height: 80vh;
+}
+
+.modal-body .action-box[action=loading] .loader {
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-body .action-box[action=show] button {
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-body .action-box[action=hide] .loader,
+.modal-body .action-box[action=show] .loader {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-body .action-box[action=hide] button,
+.modal-body .action-box[action=loading] button {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-gallery {
+  --gallery-item-size: 10rem;
+  --gallery-grid-gap: 1rem;
+  min-width: calc((var(--gallery-item-size) + var(--gallery-grid-gap)) * 4);
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gallery-grid-gap);
+}
+
+.modal-gallery-item label {
+  position: relative;
+  width: var(--gallery-item-size);
+  height: var(--gallery-item-size);
+  background-color: #00000005;
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #00000033, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: 0.2s all;
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-gallery-item label:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 4px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item label:hover .checkmark {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-gallery-item label:has(input:checked) {
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item label .checkmark {
+  --gap: 3px;
+  --size: 1.1rem;
+  position: absolute;
+  top: var(--gap);
+  right: var(--gap);
+  width: var(--size);
+  height: var(--size);
+  background-color: #eee;
+  transition: 0.2s all;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-gallery-item label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: calc(var(--size) / 3);
+  top: calc(var(--size) / 8);
+  width: calc(var(--size) / 3);
+  height: calc(var(--size) / 5 * 3);
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.modal-gallery-item input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.modal-gallery-item input ~ label .checkmark {
+  background-color: #ccc;
+}
+
+.modal-gallery-item input:checked ~ label {
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 5px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item input:checked ~ label .checkmark {
+  background-color: #2196f3;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-gallery-item input:checked ~ label .checkmark:after {
+  display: block;
+}
+
+.modal-custom {
+  width: auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] {
+  display: none;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] ~ label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+  line-height: 1;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] ~ label .toggle {
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 24px;
+  background-color: var(--secondary);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] ~ label .toggle .dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #fff;
+  transition: 0.2s all;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] ~ label .toggle .marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 18px;
+  height: 20px;
+  position: relative;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox] ~ label .toggle .marker:after {
+  content: "";
+  position: relative;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  border-color: #d9d9d9;
+  border-width: 1px;
+  border-style: solid;
+  opacity: 0.8;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle {
+  background-color: var(--success);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .dot {
+  transform: translateX(18px);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .marker {
+  transform: translateX(-20px);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .marker:after {
+  width: 2px;
+  border-width: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .primary {
+  background-color: var(--primary);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .warning {
+  background-color: var(--warning);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .info {
+  background-color: var(--info);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .danger {
+  background-color: var(--danger);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .success {
+  background-color: var(--success);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .dark {
+  background-color: var(--dark);
+}
+
+.form-custom-toggle-checkbox input[type=checkbox]:checked ~ label .toggle .purple {
+  background-color: var(--purple);
+}
+
+.custom-checkbox {
+  cursor: pointer;
+}
+
+.custom-checkbox label,
+.custom-checkbox input {
+  cursor: pointer;
+}
+
+.custom-cat-choise-field {
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.form-group {
+  margin-right: auto;
+}
+
+.form-group .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.12rem rgba(0, 123, 255, 0.25);
+}
+
+.form-group .custom-checkbox .custom-control-label::before {
+  border-radius: 0.12em;
+}
+
+.btn-default {
+  color: #212121;
+  border-color: #c4c8cc;
+  background-color: #fff;
+}
+
+.btn-default:hover {
+  background-color: #e9ecef;
+}
+

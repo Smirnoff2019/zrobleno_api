@@ -1,0 +1,154 @@
+:root {
+    --border-silver: #c4c8cc;
+}
+
+.border {
+
+    &-silver {
+        border-color: var(--border-silver) !important;
+    }
+
+    &-hover {
+        transition: .15s border;
+
+        &-primary {
+            &:hover {
+                border-color: var(--primary) !important;
+            }
+        }
+        &-secondary {
+            &:hover {
+                border-color: var(--secondary) !important;
+            }
+        }
+        &-silver {
+            &:hover {
+                border-color: var(--border-silver) !important;
+            }
+        }
+        &-success {
+            &:hover {
+                border-color: var(--success) !important;
+            }
+        }
+        &-info {
+            &:hover {
+                border-color: var(--info) !important;
+            }
+        }
+        &-warning {
+            &:hover {
+                border-color: var(--warning) !important;
+            }
+        }
+        &-danger {
+            &:hover {
+                border-color: var(--danger) !important;
+            }
+        }
+        &-light {
+            &:hover {
+                border-color: var(--light) !important;
+            }
+        }
+        &-dark {
+            &:hover {
+                border-color: var(--dark) !important;
+            }
+        }
+        &-white {
+            &:hover {
+                border-color: var(--white) !important;
+            }
+        }
+    }
+    &-w {
+        &-1 {
+            border-width: 1px !important;
+        }
+        &-2 {
+            border-width: 2px !important;
+        }
+        &-3 {
+            border-width: 3px !important;
+        }
+        &-4 {
+            border-width: 4px !important;
+        }
+        &-5 {
+            border-width: 5px !important;
+        }
+        
+        &t {
+            &-1 {
+                border-top-width: 1px !important;
+            }
+            &-2 {
+                border-top-width: 2px !important;
+            }
+            &-3 {
+                border-top-width: 3px !important;
+            }
+            &-4 {
+                border-top-width: 4px !important;
+            }
+            &-5 {
+                border-top-width: 5px !important;
+            }
+        }
+
+        &#{"r"} {
+            &-1 {
+                border-right-width: 1px !important;
+            }
+            &-2 {
+                border-right-width: 2px !important;
+            }
+            &-3 {
+                border-right-width: 3px !important;
+            }
+            &-4 {
+                border-right-width: 4px !important;
+            }
+            &-5 {
+                border-right-width: 5px !important;
+            }
+        }
+
+        &#{"b"} {
+            &-1 {
+                border-bottom-width: 1px !important;
+            }
+            &-2 {
+                border-bottom-width: 2px !important;
+            }
+            &-3 {
+                border-bottom-width: 3px !important;
+            }
+            &-4 {
+                border-bottom-width: 4px !important;
+            }
+            &-5 {
+                border-bottom-width: 5px !important;
+            }
+        }
+
+        &l {
+            &-1 {
+                border-left-width: 1px !important;
+            }
+            &-2 {
+                border-left-width: 2px !important;
+            }
+            &-3 {
+                border-left-width: 3px !important;
+            }
+            &-4 {
+                border-left-width: 4px !important;
+            }
+            &-5 {
+                border-left-width: 5px !important;
+            }
+        }
+    }
+}

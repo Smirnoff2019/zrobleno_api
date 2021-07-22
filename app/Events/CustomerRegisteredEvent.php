@@ -1,0 +1,55 @@
+<?php
+
+namespace App\Events;
+
+use App\Models\PasswordReset\PasswordReset;
+use App\Models\User\User;
+use Illuminate\Broadcasting\Channel;
+use Illuminate\Broadcasting\InteractsWithSockets;
+use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Queue\SerializesModels;
+
+class CustomerRegisteredEvent implements ShouldBroadcast
+{
+    use Dispatchable, InteractsWithSockets, SerializesModels;
+
+    /**
+     * User password reset model
+     *
+     * @var User
+     */
+    public $user;
+
+    /**
+     * Data from event for notification
+     *
+     * @var PasswordReset
+     */
+    public $notifyData;
+
+    /**
+     * Create a new event instance.
+     *
+     * @return void
+     */
+    public function __construct(string $password, User $user)
+    {
+        $this->user       = $user;
+        $this->notifyData = [
+            'password' => $password,
+        ];
+    }
+
+    /**
+     * Get the channels the event should broadcast on.
+     *
+     * @return \Illuminate\Broadcasting\Channel|array
+     */
+    public function broadcastOn()
+    {
+        return [];
+    }
+
+}

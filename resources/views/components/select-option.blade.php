@@ -1,0 +1,1 @@
+<option {{ $selected ? 'selected=selected' : '' }} value="{{ $value }}">{{ $label }}</option>

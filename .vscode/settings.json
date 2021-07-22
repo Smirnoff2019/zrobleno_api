@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 100,
+            "server": "34.91.48.69",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "Zrobleno Api DB - Host",
+            "group": "Zrobleno",
+            "database": "api",
+            "password": "nyCnDOYawE0iFk45%g",
+            "username": "hondor"
+        }
+    ]
+}

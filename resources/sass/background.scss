@@ -1,0 +1,65 @@
+:root {
+    --bg-silver: #F0F0F0;
+}
+
+.bg {
+    
+    &-silver {
+        background-color: var(--bg-silver) !important;
+    }
+
+    &-hover {
+        transition: .15s background-color;
+
+        &-primary {
+            &:hover {
+                background-color: var(--primary) !important;
+            }
+        }
+        &-secondary {
+            &:hover {
+                background-color: var(--secondary) !important;
+            }
+        }
+        &-success {
+            &:hover {
+                background-color: var(--success) !important;
+            }
+        }
+        &-info {
+            &:hover {
+                background-color: var(--info) !important;
+            }
+        }
+        &-warning {
+            &:hover {
+                background-color: var(--warning) !important;
+            }
+        }
+        &-danger {
+            &:hover {
+                background-color: var(--danger) !important;
+            }
+        }
+        &-light {
+            &:hover {
+                background-color: var(--light) !important;
+            }
+        }
+        &-dark {
+            &:hover {
+                background-color: var(--dark) !important;
+            }
+        }
+        &-white {
+            &:hover {
+                background-color: var(--white) !important;
+            }
+        }
+        &-silver {
+            &:hover {
+                background-color: var(--bg-silver) !important;
+            }
+        }
+    }
+}

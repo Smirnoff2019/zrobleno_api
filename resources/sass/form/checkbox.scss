@@ -1,0 +1,151 @@
+.form-custom-toggle-checkbox {
+
+    $dot_size: 20px;
+
+    $toggle_padding: 2px;
+    $toggle_border_radius: $toggle_padding * 2 + $dot_size;
+    $toggle_color_active: #24893b;
+    $toggle_color_inactive: #98979d;
+    
+    $marker_border_w: 1px;
+    $marker_w: $dot_size - $toggle_padding;
+    $marker_h: #{$dot_size};
+    $marker_dot_size: $marker_w/2 - $marker_border_w*2;
+
+    input[type="checkbox"] {
+
+        display: none;
+
+        & ~ label {
+            
+            cursor: pointer;
+            
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            line-height: 1;
+
+            .toggle {
+                display: flex;
+                align-items: center;
+    
+                padding: $toggle_padding;
+                border-radius: $toggle_border_radius;
+    
+                background-color: var(--secondary);
+
+                .dot {
+                    width: $dot_size;
+                    height: $dot_size;
+
+                    border-radius: 100%;
+                
+                    background-color: #fff;
+                    
+                    transition: .2s all;
+                }
+
+                .marker {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    width: $marker_w;
+                    height: $marker_h;
+                    position: relative;
+
+                    &:after {
+                        content: "";
+                        
+                        position: relative;
+
+                        width: $marker_dot_size;
+                        height: $marker_dot_size;
+
+                        border-radius: 100%;
+                        border-color: #d9d9d9;
+                        border-width: $marker_border_w;
+                        border-style: solid;
+
+                        opacity: .8;
+                    }
+                }
+
+            }
+            
+        }
+        &:checked ~ label {
+
+            .toggle {
+                
+                background-color: var(--success);
+
+                .dot {
+                    transform: translateX( $marker_w );
+                }
+                .marker {
+                    transform: translateX( -#{$marker_w + 2px} );
+                    
+                    &:after {
+                        width: 2px;
+                        border-width: 0;
+                        border-radius: 0;
+                        background-color: #fff;
+                    }
+                }
+
+                .primary {
+                    background-color: var(--primary);
+                }
+                .warning {
+                    background-color: var(--warning);
+                }
+                .info {
+                    background-color: var(--info);
+                }
+                .danger {
+                    background-color: var(--danger);
+                }
+                .success {
+                    background-color: var(--success);
+                }
+                .dark {
+                    background-color: var(--dark);
+                }
+                .purple {
+                    background-color: var(--purple);
+                }
+
+            }
+
+        }
+    }
+
+}
+
+.custom-checkbox {
+    cursor: pointer;
+
+    label,
+    input {
+        cursor: pointer;
+    }
+}
+
+.custom-cat-choise-field {
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.form-group {
+
+    .custom-control-input:focus ~ .custom-control-label::before {
+        box-shadow: 0 0 0 0.12rem rgb(0 123 255 / 25%);
+    }
+
+    .custom-checkbox .custom-control-label::before {
+        border-radius: 0.12em;
+    }
+    margin-right: auto;
+}

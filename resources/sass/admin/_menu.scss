@@ -1,0 +1,213 @@
+body.sb-nav-fixed #layoutSidenav #layoutSidenav_nav .sb-sidenav .sb-sidenav-menu {
+    overflow-y: visible !important;
+    overflow-x: visible;
+}
+
+.sb-sidenav-dark {
+
+    .sb-sidenav-menu {
+
+        $bg-color: #32373c;
+        $bg-color-hover: #191e23;
+        $bg-color-active: #03a9f475;
+
+        $text-color: rgba(255, 255, 255, 0.9);
+        $text-color-hover: #00b9eb;
+        $text-color-active: #fff;
+
+        $icon-color: rgba(255, 255, 255, 0.5);
+        $icon-color-hover: #00b9eb;
+        $icon-color-active: rgba(255, 255, 255, 0.85);
+
+        .menu-item {
+
+            position: relative;
+            
+            .menu-nav-link {
+            
+                color: $text-color;
+    
+                .menu-nav-link--icon {
+                    color: $icon-color;
+                }
+    
+                &.active, &.active:hover {
+                    // background-color: #7c858a75;
+                    background-color: $bg-color-active;
+                    color: $text-color-active;
+
+                    .menu-nav-link--icon {
+                        color: $icon-color-active;
+                    }
+                }
+                
+            }
+
+            &.active,
+            &.active:hover {
+                .menu-nav-link {
+                    background-color: $bg-color-active;
+                    color: $text-color-active;
+
+                    .menu-nav-link--icon {
+                        color: $icon-color-active;
+                    }
+                }
+            }
+
+            &:hover {
+
+                .menu-nav-link {
+                    background-color: $bg-color-hover;
+                    color: $text-color-hover;
+
+                    .menu-nav-link--icon {
+                        color: $icon-color-hover
+                    }
+
+                    &.active {
+                        background-color: $bg-color-active;
+                        color: $text-color-active;
+    
+                        .menu-nav-link--icon {
+                            color: $icon-color-active;
+                        }
+                    }
+                }
+
+            }
+
+            .submenu {
+                $link-color: rgba(255, 255, 255, 0.7);
+                $link-color-hover: #00b9eb;
+
+                position: absolute;
+                top: -1px;
+                left: 100%;
+                z-index: 9;
+
+                // width: 100%;
+                min-width: 120px;
+                max-width: 230px;
+                
+                background-color: $bg-color;
+                color: $link-color;
+        
+                visibility: hidden;
+                opacity: 0;
+
+                padding: 5px 0 8px;
+
+                box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+        
+                // clip-path: inset(-2rem -2rem -2rem 0px);
+        
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 8px;
+                    left: -9px;
+                    width: 0;
+                    height: 0;
+                    border-top: 10px solid transparent;
+                    border-right: 12px solid $bg-color;
+                    border-bottom: 10px solid transparent;
+                }
+
+                .submenu-nav-link {
+                    // background-color: $bg-color;
+                    color: $link-color;
+                    text-decoration: none;
+                    padding: 7px 1rem;
+                    font-size: .9em;
+
+                    &.active {
+
+                        background-color: inherit;
+                        color: #fff;
+                        font-weight: 500;
+
+                        // &:after {
+                        //     content: "";
+                        //     position: absolute;
+                        //     top: 0;
+                        //     right: 0;
+                        //     width: 4px;
+                        //     height: 100%;
+                        //     background-color: #ffc107;
+                        // }
+                        
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+
+                    &:hover {
+                        // background-color: $bg-color;
+                        color: $link-color-hover;
+                    }
+                }
+
+            }
+
+            &.active {
+                .submenu {
+                    visibility: visible;
+                    opacity: 1;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    background-color: $bg-color;
+                    padding: 7px 0 7px;
+
+                    box-shadow: none;
+
+                    .submenu-nav-link {
+
+                    }
+                }
+            }
+        
+            &:hover {
+                .submenu {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        
+        }
+
+        // .sb-sidenav-menu-nested {
+        //     .nav-link {
+        //         &.active {
+        //             background-color: inherit;
+        //             &:after {
+        //                 content: "";
+        //                 position: absolute;
+        //                 top: 0;
+        //                 right: 0;
+        //                 width: 3px;
+        //                 height: 100%;
+        //                 background-color: #ffc107;
+        //             }
+        //         }
+        //         &:hover {
+        //             background-color: $bg-color;
+    
+        //             svg {
+        //                 color: $svg-color
+        //             }
+        //         }
+        //     }
+        // }
+
+        .sb-sidenav-menu-heading {
+            letter-spacing: .5px;
+        }
+
+        .collapsing,
+        .collapse {
+            background-color: #181c1f;
+        }
+    }
+}

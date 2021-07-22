@@ -1,0 +1,22 @@
+.notifications-menu {
+    width: 40rem; 
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.notifications-menu-icon {
+    position: relative;
+    &:before {
+        content: "";
+        border-radius: 100%;
+        width: 0px;
+        height: 0px;
+        padding: 4px;
+        background-color: red;
+        display: block;
+        top: 7px;
+        left: 14px;
+        position: absolute;
+        border: 1px solid #343a40;
+    }
+}

@@ -1,0 +1,269 @@
+@charset "UTF-8";
+
+.menu-section-folder .folder-icon {
+  margin-bottom: 1px;
+  height: 18px;
+  width: auto;
+}
+
+.menu-section-folder .to-close-folder-icon {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.menu-section-folder .to-open-folder-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu-section-folder.active .to-close-folder-icon {
+  visibility: visible;
+  opacity: 1;
+  display: unset;
+}
+
+.menu-section-folder.active .to-open-folder-icon {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}
+
+.font-w-500 {
+  font-weight: 500;
+}
+
+#toast-container > div.toast {
+  opacity: 0.95;
+  box-shadow: 0px 4px 10px 0px #00000029;
+}
+
+#toast-container > div.toast:hover {
+  opacity: 1;
+}
+
+.anchor {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: -10vh;
+  left: 0;
+  z-index: -1;
+}
+
+body.code-request .image-preview {
+  position: relative;
+  cursor: pointer;
+}
+
+body.code-request .image-preview img {
+  position: relative;
+}
+
+body.code-request .image-preview:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "\41D\430\436\43C\438   \447\442\43E\431\44B   \43E\442\43A\440\44B\442\44C   \432   \43D\43E\432\43E\439   \432\43A\43B\430\434\43A\435";
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.3rem;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: #1f1f1fbd;
+}
+
+body.code-request .image-preview:before {
+  content: attr(data-size);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #232323b3;
+  padding: 3px 5px;
+  text-shadow: 0px 0px 8px #000;
+}
+
+body.code-request .image-preview:hover:after {
+  opacity: 1;
+}
+
+body.code-request .image-preview.sketche:after {
+  content: "\41D\430\436\43C\438   \447\442\43E\431\44B   \43E\442\43A\440\44B\442\44C   \432   \43D\43E\432\43E\439   \432\43A\43B\430\434\43A\435";
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+body.code-request {
+  background: #222222;
+  color: #fff;
+}
+
+body.code-request pre {
+  color: #fff;
+  background: #444444;
+}
+
+body pre {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+}
+
+.documentation > .title {
+  font-weight: 400;
+}
+
+.documentation .endpoint .method {
+  display: inline-block;
+  line-height: 1;
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  vertical-align: middle;
+}
+
+.documentation .endpoint .uri {
+  background: #eaeaea;
+  padding: 0.23rem 0.4rem;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+.documentation .headers {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.documentation .headers .value {
+  display: inline-block;
+  padding: 0.2rem 0.4rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.documentation .headers .copy-btn {
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.documentation .headers:hover .copy-btn {
+  opacity: 1;
+}
+
+.documentation .headers:hover .value {
+  background: #f1f1f1;
+}
+
+.documentation .params tbody .name {
+  font-weight: 500;
+}
+
+.documentation .params tbody .name,
+.documentation .params tbody .example {
+  padding: 0.2rem 0.2rem;
+  cursor: pointer;
+  position: relative;
+  transition: background 0.3s;
+}
+
+.documentation .params tbody .name:hover,
+.documentation .params tbody .example:hover {
+  background: #eaeaea;
+}
+
+.documentation .params tbody .type {
+  color: #e83e8c;
+}
+
+.documentation .params tbody td {
+  min-width: 150px;
+  vertical-align: middle;
+}
+
+.documentation .code-examples .tab-content {
+  padding: 3px;
+}
+
+.documentation .code-examples .tab-content pre {
+  box-shadow: 0px 0px 0px 3px #dee2e6;
+  min-height: 15rem;
+}
+
+.documentation .code-examples .tab-content .copy-code-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+  color: #fff;
+}
+
+.documentation .copy-btn {
+  cursor: pointer;
+}
+
+.documentation .copy-btn .name {
+  opacity: 0.6;
+}
+
+.documentation .copy-btn svg {
+  opacity: 0.5;
+}
+
+.documentation .copy-btn:after {
+  content: "\41A\43E\43F\438\440\43E\432\430\442\44C";
+  position: absolute;
+  bottom: -1.7rem;
+  left: 40%;
+  background: #292a2d;
+  border: 1px solid #eaeaea;
+  padding: 0.3rem 0.4rem 0.4rem 0.4rem;
+  color: #d6d6d6;
+  font-size: 0.75rem;
+  display: inline-block;
+  line-height: 1;
+  letter-spacing: 0.1px;
+  border-radius: 2px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s 0.5s;
+  z-index: 9;
+}
+
+.documentation .copy-btn:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.documentation .copy-btn:hover .name {
+  opacity: 0.8;
+}
+
+.documentation .copy-btn:hover svg {
+  opacity: 0.6;
+}
+
+.documentation .params td .copy-btn {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.35s;
+}
+
+.documentation .params td:hover .copy-btn {
+  visibility: visible;
+  opacity: 0.5;
+}
+

@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+:root {
+  --image_preview_bg_image: "";
+}
+
+.image-preview {
+  --size: 15rem;
+  width: var(--size);
+  position: relative;
+  box-shadow: 0px 0px 0px 1px #ffffff, 0px 0px 0px 3px #00000033;
+}
+
+.image-preview.empty {
+  min-height: calc(var(--size) / 16 * 9);
+}
+
+.image-preview.empty:before,
+.image-preview .inline:before {
+  content: "\412\44B\431\435\440\438\442\435   \438\437\43E\431\440\430\436\435\43D\438\435";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--size);
+  height: calc(var(--size) / 16 * 9);
+  background-color: rgba(0, 0, 0, 0.03);
+  color: #9b9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.image-preview.empty img,
+.image-preview .inline img {
+  display: none;
+}
+
+.image-preview .inline {
+  width: var(--size);
+  height: var(--size);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.image-preview .inline:after {
+  --size: 100%;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--size);
+  height: var(--size);
+  background-image: var(--image_preview_bg_image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.image-preview img {
+  width: var(--size);
+  background-color: #00000005;
+}
+
+.preview-images {
+  --size: 15rem;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.preview-images img {
+  width: var(--size);
+  margin: 0.5rem 0.5rem;
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #00000033, 0 2px 8px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 0px 1px #00000033, 0px 0px 0px 3px #fff, 0px 0px 0px 5px #00000033, 0 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.preview-images.empty:before,
+input[value=""] ~ .preview-images:before {
+  content: "\412\44B\431\435\440\438\442\435   \438\437\43E\431\440\430\436\435\43D\438\435";
+  width: var(--size);
+  height: calc(var(--size) / 16 * 9);
+  margin: 0.5rem 0.5rem;
+  background-color: #fff;
+  color: #9b9b9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px #00000033, 0px 0px 0px 3px #fff, 0px 0px 0px 4px #00000033, 0 2px 8px 4px rgba(0, 0, 0, 0.2);
+}
+
+.preview-images.empty img,
+input[value=""] ~ .preview-images img {
+  display: none;
+}
+
+.modal-body {
+  overflow-y: scroll;
+  max-height: 80vh;
+  min-height: 80vh;
+}
+
+.modal-gallery {
+  --gallery-item-size: 10rem;
+  --gallery-grid-gap: 1rem;
+  min-width: calc((var(--gallery-item-size) + var(--gallery-grid-gap)) * 4);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gallery-grid-gap);
+}
+
+.modal-gallery-item label {
+  position: relative;
+  width: var(--gallery-item-size);
+  height: var(--gallery-item-size);
+  background-color: #00000005;
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #00000033, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: 0.2s all;
+  background-size: cover;
+  background-position: center;
+}
+
+.modal-gallery-item label:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 1px #fff, 0px 0px 0px 4px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item label:hover .checkmark {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-gallery-item label:has(input:checked) {
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 3px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item label .checkmark {
+  --gap: 3px;
+  --size: 1.1rem;
+  position: absolute;
+  top: var(--gap);
+  right: var(--gap);
+  width: var(--size);
+  height: var(--size);
+  background-color: #eee;
+  transition: 0.2s all;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal-gallery-item label .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: calc(var(--size) / 3);
+  top: calc(var(--size) / 8);
+  width: calc(var(--size) / 3);
+  height: calc(var(--size) / 5 * 3);
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.modal-gallery-item input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.modal-gallery-item input ~ label .checkmark {
+  background-color: #ccc;
+}
+
+.modal-gallery-item input:checked ~ label {
+  box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 5px #0073aa, 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-gallery-item input:checked ~ label .checkmark {
+  background-color: #2196f3;
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-gallery-item input:checked ~ label .checkmark:after {
+  display: block;
+}
+
+.modal-custom {
+  width: auto;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.loader {
+  --loader-size: 2rem;
+  --loader-weight: 3px;
+  --loader-color: #212121;
+  --loader-tiny-color: #21212120;
+  width: var(--loader-size);
+  height: var(--loader-size);
+  border-radius: 50%;
+  border-top: var(--loader-weight) solid var(--loader-color);
+  border-right: var(--loader-weight) solid var(--loader-tiny-color);
+  border-bottom: var(--loader-weight) solid var(--loader-tiny-color);
+  border-left: var(--loader-weight) solid var(--loader-tiny-color);
+  -webkit-animation-name: loader;
+          animation-name: loader;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition: opacity 0.15s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader.show,
+.loader.active,
+.loader.loading {
+  opacity: 1;
+  visibility: visible;
+}
+
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(40deg);
+  }
+
+  to {
+    transform: rotate(400deg);
+  }
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(40deg);
+  }
+
+  to {
+    transform: rotate(400deg);
+  }
+}
+
+.action-box[action=loading] .loader {
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.action-box[action=show] button {
+  display: inline-block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.action-box[action=hide] .loader,
+.action-box[action=show] .loader {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.action-box[action=hide] button,
+.action-box[action=loading] button {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+

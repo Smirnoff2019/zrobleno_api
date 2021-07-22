@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyInterfaceNamespace;
+
+use App\Schemes\DefaultSchema;
+
+interface DummyInterfaceName extends DefaultSchema
+{
+
+    public const TABLE = 'table_name';
+
+}
